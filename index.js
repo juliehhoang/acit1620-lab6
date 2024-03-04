@@ -71,7 +71,7 @@ randomUrls = shuffle(urls)
 images = document.querySelectorAll(".card img")
 for (let i = 0; i < images.length; i++) {
     randomSources = randomUrls
-    images[i].src = randomUrls[i]
+    images[i].src = randomSources[i];
 }
 document.querySelector("h1").textContent += "!"
 

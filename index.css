@@ -42,3 +42,14 @@ h1 {
     2. Each image must transition from opacity: 0 to opacity: 1 on hover using any duration and timing function of your choice
 
 */
+
+#game {
+    display: grid;
+    grid-template-columns: repeat(3, 128px);
+    grid-template-rows: repeat(3, 128px);
+    gap: 16px
+}
+
+.card:hover img {
+    opacity: 1;
+}

@@ -17,7 +17,6 @@ const shuffle = (list) => {
 /*
     Step 1:
     - Create an array named 'urls' of eight strings containing the following values:
-
     https://i.ibb.co/sjvVrG3/fruit-plyh.jpg
     https://i.ibb.co/g3tqj4w/fruit-zxcv.jpg
     https://i.ibb.co/88Hy4rD/fruit-wert.jpg
@@ -56,3 +55,4 @@ const shuffle = (list) => {
     - Append an exclamation point (!) to the .textContent property of the h1 on the page
 
 */
+

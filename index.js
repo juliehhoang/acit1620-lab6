@@ -68,13 +68,10 @@ urls = ["https://i.ibb.co/sjvVrG3/fruit-plyh.jpg",
         "https://i.ibb.co/CVwKM8Z/fruit-ecuh.jpg"]
 randomUrls = shuffle(urls)
 
-
-
 images = document.querySelectorAll(".card img")
 for (let i = 0; i < images.length; i++) {
-    images[i].src = randomUrls[i]
     randomSources = randomUrls
-
+    images[i].src = randomUrls[i]
 }
 document.querySelector("h1").textContent += "!"
 
